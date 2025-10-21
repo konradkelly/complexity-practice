@@ -17,7 +17,7 @@ public class Main {
   }
 
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // O(n) where n = the number of letters in the word
   public static void printLetters(String word) {
     char[] letters = word.toCharArray();
 
