@@ -71,7 +71,7 @@ public class Main {
 
   // Assume that the largest number is no bigger than the length
   // of the array
-  // YOUR ANSWER HERE
+  // O(n^2) where n = the length of the nums array
   public static void computeAllFactorials(int[] nums) {
     for(int num : nums) {
         int result = computeFactorial(num);
