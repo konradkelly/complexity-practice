@@ -6,7 +6,7 @@ import java.util.Set;
 public class Main {
 
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // O(n^2) where n = x
   public static void timesTable(int x) {
     for(int i = 1; i <= x; i++) {
         for(int j = 1; j <= x; j++) {
@@ -71,6 +71,7 @@ public class Main {
 
   // Assume that the largest number is no bigger than the length
   // of the array
+  // YOUR ANSWER HERE
   public static void computeAllFactorials(int[] nums) {
     for(int num : nums) {
         int result = computeFactorial(num);
@@ -174,6 +175,7 @@ public class Main {
   // What is the time complexity of your solution?
   // YOUR ANSWER HERE
   public static String emailLookupEfficient(HashMap<String, String> namesToEmails, String queryName) {
+
     return null;
   }
 
@@ -195,7 +197,8 @@ public class Main {
   // What is the time complexity of your new solution?
   // YOUR ANSWER HERE
   public static boolean hasCommonEfficient(HashSet<String> wordSet, ArrayList<String> wordList) {
-    return false;
+
+    return null;
   }
 
   // Suppose you are building a dashboard that displays real-time stock prices.
@@ -203,14 +206,14 @@ public class Main {
   // The prices will be updated frequently throughout the day, and you need to efficiently update
   // and access the current price for each stock. The order of the ticker symbols is not important.
   // What would be a good choice of data structure?
-  // YOUR ANSWER HERE
+  // 
 
   // Suppose you are building a music player application where users can create playlists.
   // Songs can be added to the end of the playlist in the order the user chooses, and the user can
   // skip to the next or previous song. Most operations involve adding songs and accessing them by
   // their position in the playlist.
   // What would be a good choice of data structure?
-  // YOUR ANSWER HERE
+  // 
 
   // Suppose you are developing a search feature that keeps track of the user's
   // recent search queries. You want to store the queries in the order they were made,
@@ -218,5 +221,5 @@ public class Main {
   // relatively small, and it is more important to preserve the order of the searches than
   // to optimize for fast lookups or deletions.
   // What would be a good choice of data structure?
-  // YOUR ANSWER HERE
+  // 
 }
